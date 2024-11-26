@@ -5,7 +5,7 @@ services:
   postgresql:
     image: docker.io/bitnami/postgresql:17
     volumes:
-      - './postgresql_data:/bitnami/postgresql'
+      - './postgresql_data/data:/bitnami/postgresql/data'
     environment:
       - POSTGRESQL_DATABASE=bitnami_airflow
       - POSTGRESQL_USERNAME=bn_airflow
