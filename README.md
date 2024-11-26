@@ -11,3 +11,6 @@ sudo chmod -R 775 /home/blueshift/testegit/Bees/postgresql_data
 
 
 sudo chown -R 1001:1001 /data
+
+
+/opt/bitnami/airflow/venv/bin/python -c "import airflow.providers.apache.spark.operators.spark_submit"
