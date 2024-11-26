@@ -11,6 +11,8 @@ services:
       - POSTGRESQL_USERNAME=bn_airflow
       - POSTGRESQL_PASSWORD=bitnami1
       - ALLOW_EMPTY_PASSWORD=yes
+      - POSTGRESQL_UID=1001
+      - POSTGRESQL_GID=1001
     networks:
       - spark-network
 
