@@ -8,3 +8,6 @@ se o postgres nao subir alterar as permissões no host
 No host, corrija o dono e as permissões do diretório antes de iniciar o container:
 sudo chown -R 1001:1001 /home/blueshift/testegit/Bees/postgresql_data
 sudo chmod -R 775 /home/blueshift/testegit/Bees/postgresql_data
+
+
+sudo chown -R 1001:1001 /data
